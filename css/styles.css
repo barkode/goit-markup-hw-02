@@ -1,0 +1,43 @@
+/* COlORS */
+
+/* Primary Brand. CTAs, Focused, Active States, Links - color: #4D5AE5; */
+/* Dark. Overlays, Shadows, Headings - color: #2E2F42; */
+/* Success. Valid fields, Success messages - color: #31D0AA; color: rgba(49, 208, 170, 0.1);*/
+/* Body text color: #434455; */
+/* Subtle text. Helper text, Deemphasixed text - color: #8E8F99; */
+/* Accent. Accent color, Hairlines, Subtle backgrounds - color: #E7E9FC; */
+/* Light. Light mode backgrounds, Light mode dialogs / alerts - color: #F4F4FD; */
+:root {
+  /* COLORS */
+  --brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --body-text-color: #434455;
+  --sub-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--body-text-color);
+}
+
+.logo {
+  color: var(--brand-color);
+}
+.logo-white {
+  color: #f4f4fd;
+}
+
+.logo-black {
+  color: var(--dark);
+}
+
+.ul-off {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #2e2f42;
+}
