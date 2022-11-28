@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-.logo {
-  color: blue;
-}
-.logo-white {
-  color: white;
-}
-
-.logo-black {
-  color: black;
-}
-
-.page-header {
-  /* заглушка */
-}
-
-.site-nav {
-  /* plug */
-}
-
-.site-contact {
-  /* plug */
-=======
 /* COlORS */
 
 /* Primary Brand. CTAs, Focused, Active States, Links - color: #4D5AE5; */
@@ -63,5 +40,4 @@ body {
 
 .site-nav .link {
   color: #2e2f42;
->>>>>>> f8281861ffbb858d84daa64fda4d6a29e3baf171
 }
