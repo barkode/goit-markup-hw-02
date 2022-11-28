@@ -7,6 +7,8 @@
 /* Subtle text. Helper text, Deemphasixed text - color: #8E8F99; */
 /* Accent. Accent color, Hairlines, Subtle backgrounds - color: #E7E9FC; */
 /* Light. Light mode backgrounds, Light mode dialogs / alerts - color: #F4F4FD; */
+
+/* Variables */
 :root {
   /* COLORS */
   --brand-color: #4d5ae5;
@@ -22,7 +24,7 @@ body {
   background-color: #ffffff;
   color: var(--body-text-color);
 }
-
+/* Logo */
 .logo {
   color: var(--brand-color);
 }
