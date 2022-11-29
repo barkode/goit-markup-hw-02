@@ -29,9 +29,10 @@ body {
 /* Logo */
 .logo {
   color: var(--brand-color);
+  text-transform: uppercase;
 }
 .logo-white {
-  color: vaar(--light-color);
+  color: var(--light-color);
 }
 
 .logo-black {
@@ -42,7 +43,6 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
@@ -50,4 +50,44 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--brand-color);
+}
+
+.contact-email,
+.contact-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.contact-email:hover,
+.contact-email:focus {
+  color: var(--brand-color);
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--brand-color);
+}
+
+.hero-header {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--bgrnd-color);
+  background-color: var(--dark-color);
+}
+
+.modal-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  /* display: flex; */
+  /* align-items: center; */
+  letter-spacing: 0.04em;
+  color: var(--bgrnd-color);
+  background-color: var(--brand-color);
 }
