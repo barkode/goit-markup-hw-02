@@ -9,6 +9,8 @@
 
 /* Variables */
 :root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   /* COLORS */
   --brand-color: #4d5ae5; /* IRIS */
   --dark-color: #2e2f42; /* NAVY BLUE */
@@ -23,14 +25,14 @@
 body {
   background-color: var(--bgrnd-color);
   color: var(--body-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 600;
   font-size: 16px;
 }
 
 /* Logo */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
