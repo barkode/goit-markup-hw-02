@@ -81,7 +81,7 @@ body {
   background-color: var(--dark-color);
 }
 
-.modal-btn {
+.hero-btn {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.18;
@@ -90,4 +90,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
+  cursor: pointer;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--brand-color);
