@@ -24,6 +24,7 @@ body {
   background-color: var(--bgrnd-color);
   color: var(--body-text-color);
   font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 
 /* Logo */
@@ -47,7 +48,6 @@ body {
 }
 
 .menu-link {
-  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -61,7 +61,7 @@ body {
 
 .contact-email,
 .contact-phone {
-  /* font-weight: 400; */
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,7 +79,6 @@ body {
 }
 
 .hero-header {
-  font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
   /* text-align: center; */
@@ -89,7 +88,6 @@ body {
 }
 
 .hero-btn {
-  font-weight: 600;
   font-size: 16px;
   line-height: 1.18;
   /* display: flex; */
@@ -106,7 +104,6 @@ body {
 }
 
 .descr-header {
-  font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -114,7 +111,7 @@ body {
 }
 
 .descr-text {
-  /* font-weight: 400; */
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -122,7 +119,6 @@ body {
 }
 
 .section-header {
-  font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   /* text-align: center; */
@@ -140,7 +136,6 @@ body {
 }
 
 .menu-btn {
-  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   /* display: flex; */
