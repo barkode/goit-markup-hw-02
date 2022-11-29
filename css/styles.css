@@ -1,13 +1,3 @@
-/* COlORS */
-
-/* Primary Brand. CTAs, Focused, Active States, Links - color: #4D5AE5; */
-/* Dark. Overlays, Shadows, Headings - color: #2E2F42; */
-/* Success. Valid fields, Success messages - color: #31D0AA; color: rgba(49, 208, 170, 0.1);*/
-/* Body text color: #434455; */
-/* Subtle text. Helper text, Deemphasixed text - color: #8E8F99; */
-/* Accent. Accent color, Hairlines, Subtle backgrounds - color: #E7E9FC; */
-/* Light. Light mode backgrounds, Light mode dialogs / alerts - color: #F4F4FD; */
-
 /* Reset styles */
 .list {
   list-style: none;
@@ -20,48 +10,39 @@
 /* Variables */
 :root {
   /* COLORS */
-  --brand-color: #4d5ae5;
-  --dark-color: #2e2f42;
-  --success-color: #31d0aa;
-  --body-text-color: #434455;
-  --sub-text-color: #8e8f99;
-  --accent-color: #e7e9fc;
-  --light-color: #f4f4fd;
-  --bgrnd-color: #ffffff;
+  --brand-color: #4d5ae5; /* IRIS */
+  --dark-color: #2e2f42; /* NAVY BLUE */
+  --success-color: #31d0aa; /* GREEN */
+  --body-text-color: #434455; /* SLATE */
+  --sub-text-color: #8e8f99; /* LIGHT SLATE */
+  --accent-color: #e7e9fc; /* CORNFLOWER */
+  --light-color: #f4f4fd; /* CLOUD */
+  --bgrnd-color: #ffffff; /* WHITE */
 }
 
 body {
   background-color: var(--bgrnd-color);
   color: var(--body-text-color);
-  font-family: Roboto, Segoe UI;
-}
-
-.menu-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Logo */
 .logo {
   color: var(--brand-color);
-  text-decoration: none;
 }
 .logo-white {
-  color: #f4f4fd;
-  text-decoration: none;
+  color: vaar(--light-color);
 }
 
 .logo-black {
-  color: var(--dark);
-  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.menu-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
