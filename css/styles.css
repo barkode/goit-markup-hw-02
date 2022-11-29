@@ -18,22 +18,27 @@
   --sub-text-color: #8e8f99;
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
+  --bgrnd-color: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--bgrnd-color);
   color: var(--body-text-color);
+  font-family: Roboto, Segoe UI;
 }
 /* Logo */
 .logo {
   color: var(--brand-color);
+  text-decoration: none;
 }
 .logo-white {
   color: #f4f4fd;
+  text-decoration: none;
 }
 
 .logo-black {
   color: var(--dark);
+  text-decoration: none;
 }
 
 .ul-off {
