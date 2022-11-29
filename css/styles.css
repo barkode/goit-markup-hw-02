@@ -8,6 +8,11 @@
 /* Accent. Accent color, Hairlines, Subtle backgrounds - color: #E7E9FC; */
 /* Light. Light mode backgrounds, Light mode dialogs / alerts - color: #F4F4FD; */
 
+/* Reset styles */
+.ul-off {
+  list-style: none;
+}
+
 /* Variables */
 :root {
   /* COLORS */
@@ -39,10 +44,6 @@ body {
 .logo-black {
   color: var(--dark);
   text-decoration: none;
-}
-
-.ul-off {
-  list-style: none;
 }
 
 .site-nav .link {
