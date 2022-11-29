@@ -96,6 +96,7 @@ body {
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
   cursor: pointer;
+  font-family: var(--primary-font);
 }
 
 .hero-btn:hover,
@@ -144,6 +145,7 @@ body {
   background-color: var(--accent-color);
   border: none;
   cursor: pointer;
+  font-family: var(--primary-font);
 }
 
 .menu-btn:hover,
