@@ -46,3 +46,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--brand-color);
+}
