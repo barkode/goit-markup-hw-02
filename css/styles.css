@@ -9,8 +9,12 @@
 /* Light. Light mode backgrounds, Light mode dialogs / alerts - color: #F4F4FD; */
 
 /* Reset styles */
-.list-off {
+.list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* Variables */
@@ -44,8 +48,4 @@ body {
 .logo-black {
   color: var(--dark);
   text-decoration: none;
-}
-
-.site-nav .link {
-  color: #2e2f42;
 }
