@@ -96,3 +96,38 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--brand-color);
+}
+
+.descr-header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.descr-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.section-header {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.descr-footer {
+  color: var(--accent-color);
+}
+
+.page-footer {
+  background-color: var(--dark-color);
+}
