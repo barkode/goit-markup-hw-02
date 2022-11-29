@@ -20,6 +20,7 @@
   --accent-color: #e7e9fc; /* CORNFLOWER */
   --light-color: #f4f4fd; /* CLOUD */
   --bgrnd-color: #ffffff; /* WHITE */
+  --hero-btn-backgroung: #404bbf;
 }
 
 body {
@@ -58,6 +59,10 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
+  color: var(--body-text-color);
+}
+
+.menu-link:active {
   color: var(--brand-color);
 }
 
@@ -102,6 +107,10 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--brand-color);
+}
+
+.hero-btn:active {
+  background-color: var(--hero-btn-backgroung);
 }
 
 .descr-header {
