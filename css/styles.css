@@ -49,8 +49,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  /* display: flex; */
-  /* align-items: center; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
@@ -96,21 +94,22 @@ body {
   color: var(--brand-color);
 }
 
+.hero {
+  background-color: var(--dark-color);
+}
 .hero-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  /* text-align: center; */
   letter-spacing: 0.02em;
   color: var(--bgrnd-color);
-  background-color: var(--dark-color);
+  text-align: center;
 }
 
 .hero-btn {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
-  /* display: flex; */
-  /* align-items: center; */
   letter-spacing: 0.04em;
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
@@ -142,14 +141,21 @@ body {
   color: var(--body-text-color);
 }
 
-.section-header {
+.team {
+  background-color: var(--light-color);
+}
+.team-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  /* text-align: center; */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  text-align: center;
+}
+
+.team-item {
+  background-color: var(--bgrnd-color);
 }
 
 .descr-footer {
@@ -161,11 +167,9 @@ body {
 }
 
 .menu-btn {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  /* display: flex; */
-  /* align-items: center; */
-  /* text-align: center; */
   letter-spacing: 0.04em;
   color: var(--brand-color);
   background-color: var(--accent-color);
